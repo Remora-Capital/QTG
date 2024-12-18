@@ -5,6 +5,10 @@ import pandas as pd
 tickers = pd.read_html(
     'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')[0]
 
+
+tickers = tickers[tickers.Symbol != 'BRK.B']
+
+
 # # Get the data for this tickers from yahoo finance
 # snp2016 = yf.download(tickers.Symbol.to_list(), '2016-01-01', '2016-12-31', auto_adjust=True)
 # snp2017 = yf.download(tickers.Symbol.to_list(), '2017-01-01', '2017-12-31', auto_adjust=True)
