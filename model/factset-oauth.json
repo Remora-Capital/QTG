@@ -1,0 +1,23 @@
+{
+  "name": "Luis Tercero Herman",
+  "clientId": "49695973178c465299d0559ddbf45d5e",
+  "clientAuthType": "Confidential Client Application - Machine Authorization",
+  "owners": [
+    "WASHLEE_EDU-1978437"
+  ],
+  "jwk": {
+    "kty": "RSA",
+    "use": "sig",
+    "alg": "RS256",
+    "kid": "b8c72328c44b4335bbef2ba6f6c873d6",
+    "d": "HnYt2JOIpD59LgNkEdN-zmikJr6QKlhK1dLce3PdgkNO-Kn-Iv4pjcbsNIExKrKDUobkrIhAZ6qDujAt9HhhqS7c5zkmjSSI2cPodk002BlWPzV9Fm3RbhGKF0GEQw-fDP2XSeCQZo8i5zVmNsZIpL2-NZGpnKbCTdP0lmZO5TYDcNWKpPx71H6pi2ea2lIDKZXwmUxdy83HuvckaFERSDKt8RQVbrpfYWw23xtmiG5AEJ3o8s3a1-LS7FjcIgkkolwfq6efjFiII4z9Z-GlVYilJi0_XKJ8YjhlQPkc5VPAf_9QAkbS_Oe2GllBT38MQr-k-L6wL1O3krrKfgdxgQ",
+    "n": "k8fC4WvekUG6T2mmT-ybWl0YOc_iJsfyxl3Fo5Ee8sTq1PtpBb9jxbfC0Uao2GgdDTZkKRoTD_4X7bro6W_AqOUv2ekt9cmTFEW0IHl-SnC5Hf5M0rT5FLsoDp9JjqMM_hkiKEkdmk3DD_Flta-tbxNAqhiBlpr0vFVSf1z51QGJh9WDCsGYY2iXWA5LQ8NeOxplA3jCjhyJQQJeeBdMLC5dvdHy4qV4AhXU9S5vNpje0dMXU7g2ct2PqOUufhI2Eu4sur-HiM1KtdAqIjLEAbsxsYuicb5C2ZIILZeHcMqFzqNo8xHHBDnFO2Ntm0X3PYrRZ6qA-1ILjYOoU2S-eQ",
+    "e": "AQAB",
+    "p": "6IJm8Yd3YW_JSMJPxvc6yjp4WRPotNavW4c-s9gX09Z7fTqX3qDyL8nxO-kg14oJSKObpThT30tJtzO4JAALTHSVKub5sWrgsvezXuklQzv0LsMGxq95CIyLBhjllUu0GWkRQSmYUc_4VASNjYVzG6Liz41h1N6Lo7Kr2JPA44k",
+    "q": "orXvhC5GuzTXCgV49tYPAKvY54I9Kb2mdJEZbbqYXnGOc6qfxp7m2AmIZ1WTQYdw-PPBWwMQPt188C4nerywxUf-4Pi4amw5th5SI8yUgEbFzfzlDx3ShWM9yNgHNLWDxSVaD_SNPKlWIscUHVs7X52wrD8k24adTedEfMmXF3E",
+    "dp": "Ibtpe_kPVM-HAEtQj6kmmlhJRYMh67qJzlmcuzLKoi0n1U8-4UmwWUaO_QYhgaPBHQy_dATsBiVCGJYkTPTErt7rFUJVT2wWFWDiYQ6qHUsBbhdVUFX81USulr_d7v8Arf8URcPnGVd2y5mtf66wuH21Mi9s1hlDYQh27gDhpyE",
+    "dq": "ah1HUKgxfuPuHl4FTs25yRFKC2n346IIzdrXf6WCu41JfwvW2d1F5b0J1YKM396qAeJOxsFPtgAS_DzNiJFIo9DZW_U5qEZeuPQ7U5eXfbUqSbXV2S703gMkBzlEMc7zWf6LJv6xoc86GsJEzwRxy2D3GM6xhe3b5zOdidibDjE",
+    "qi": "KL0jJtXJe3LpEOOYqmElzHqoOPaeTfCWQuFFJwMvDa7PWdRrNfaYJBMMQWo5ShNCd4zFiepYKSGowWwK5Kq6JFPJ543msuw41OFCuhg2hN5l-Ds0hpOWQZxm1KxFgSX9Fyb94P7PJcMUC-ixx7oSIv3MGuSnIishf4ZQN3XT-sQ"
+  },
+  "wellKnownUri": "https://auth.factset.com/.well-known/openid-configuration"
+}

@@ -1,0 +1,46 @@
+get_major_holders()
+get_institutional_holders()
+get_mutualfund_holders()
+get_insider_purchases()
+get_insider_transactions()
+get_insider_roster_holders()
+get_dividends()
+get_capital_gains()
+get_splits()
+get_actions()
+get_shares()
+get_info()
+get_fast_info()
+get_calendar()
+get_sec_filings()
+get_recommendations()
+get_recommendations_summary()
+get_upgrades_downgrades()
+get_earnings()
+get_earnings(freq='quarterly')
+get_income_stmt(pretty=True)
+get_income_stmt(pretty=True, freq='quarterly')
+income_stmt
+quarterly_income_stmt
+income_stmt
+quarterly_income_stmt
+get_balance_sheet(pretty=True)
+get_balance_sheet(pretty=True, freq='quarterly')
+balance_sheet
+quarterly_balance_sheet
+get_cash_flow(pretty=True, freq="yearly")
+get_cash_flow(pretty=True, freq='quarterly')
+cash_flow
+quarterly_cash_flow
+get_analyst_price_targets()
+get_earnings_estimate()
+get_revenue_estimate()
+get_earnings_history()
+get_eps_trend()
+get_eps_revisions()
+get_growth_estimates()
+get_sustainability()
+get_news()
+get_earnings_dates()
+get_history_metadata()
+get_funds_data()
