@@ -167,6 +167,7 @@ def processer(driver, page_number):
             return False
         if not good_click(driver, By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div/div[3]/div/div/div/div/div[6]/div/div[2]/div/div/div[1]/div[3]/div/div[2]/div[2]/div[2]/div/button[2]', "Next page"):
             return False
+        time.sleep(20)
     
     
     logging.info(f"Page {page_number} processed successfully.")
@@ -196,11 +197,15 @@ def main():
             except NoSuchElementException:
                 logging.info("No more pages available. Ending process.")
                 break
-        print(output)
+
+        print(f"{len(output)} articles scraped.")
+        json.dump(output, open('./output.json', 'w'))        
+
         driver.quit()
         logging.info("Automation script completed successfully.")
 
     except Exception as e:
+        print(f"{len(output)} articles scraped.")
         json.dump(output, open('./output.json', 'w'))        
         logging.error(f"Fatal error in main script: {e}")
 
